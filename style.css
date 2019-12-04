@@ -1,0 +1,149 @@
+body {
+  font-family: "Muli", sans-serif;
+  overflow-x: hidden;
+}
+
+.header {
+  position: relative;
+  height: calc(169.5vh + 70px);
+}
+
+.navbar {
+  padding: 1.4rem 8rem;
+  z-index: 10;
+  position: fixed;
+}
+
+.navbar-brand{
+  font-weight: 900;
+}
+
+.navbar-brand span{
+  color: red;
+}
+
+@media (min-width: 768px){
+  .navbar-expand-md .navbar-nav .nav-link {
+    margin-right: 2rem;
+    margin-left: .5rem;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.bg-transparent {
+  padding: 1.4rem 8rem;
+  transition: all 0.5s ease;
+}
+
+.bg-white {
+  transition: all 0.5s ease;
+  padding: 0.6rem 8rem;
+}
+
+.color-scroll{
+  color: #000 !important;
+}
+
+.nav-link {
+  font-size: 1.05rem;
+}
+
+.home {
+  border-bottom: 2px solid;
+}
+
+.navbar-toggler{
+  height: 35px;
+  width: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.ham-icons{
+  height: 2px;
+  width: 22.5px;
+  background: #fff;
+}
+
+.ham-scroll {
+  background: #000 !important;
+}
+
+.navbar-toggler-without-scroll {
+  border: 2px solid #fff !important;
+}
+
+.nav-toggler-scroll {
+  border: 2px solid #000 !important ;
+}
+
+video{
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  clip-path: polygon(0 0, 100% 0, 100% 169.5vh, 0 169.5vh);
+}
+
+.video-offset{
+  height: 169.5vh;
+  background: rgba(0,0,0,0.4)
+}
+
+.left-contact{
+  width: 730px;
+  background: #F3452E;
+  position: absolute;
+  top: calc(100% - 140px);
+  height: 140px;
+  z-index: 5;
+  clip-path: polygon(0 0, 100% 0, 700px 100%, 0 100%);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #fff;
+}
+
+.left-contact div:first-child a{
+  display: none;
+}
+
+.left-contact div:first-child p:first-child{
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.left-contact div:first-child p:nth-child(2){
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+
+.left-contact div:last-child a{
+  display: block;
+  background: #F89E2E;
+  color: #fff;
+  text-decoration: none;
+  padding: 15px 25px;
+  font-weight: 900;
+  font-size: 0.8rem;
+  border-radius: 5px;
+}
+
+@media (max-width: 768px){
+  .left-contact div:first-child a{
+    display: inline-block;
+    background: #F89E2E;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 25px;
+    font-weight: 700;
+    font-size: 0.8rem;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  .left-contact div:last-child a{
+    display: none;
+  }
+}
