@@ -83,7 +83,7 @@ video{
   position: absolute;
   top: 0;
   z-index: -1;
-  clip-path: polygon(0 0, 100% 0, 100% 169.5vh, 0 169.5vh);
+  clip-path: polygon(0 0, 100vw 0, 100vw 169.5vh, 0 169.5vh);
 }
 
 .video-offset{
