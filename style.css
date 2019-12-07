@@ -8,6 +8,13 @@ body {
   height: calc(1080px + 70px);
 }
 
+@media (max-width: 768px){
+  .header{
+    width: 100vw;
+  }
+
+}
+
 .navbar {
   padding: 1.4rem 8rem;
   z-index: 10;
