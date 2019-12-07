@@ -3,18 +3,6 @@ body {
   overflow-x: hidden;
 }
 
-.header {
-  position: relative;
-  height: calc(1080px + 70px);
-}
-
-@media (max-width: 768px){
-  .header{
-    clip-path: polygon(0 0, 100vw 0, 100vw 100%, 0 100%);
-  }
-
-}
-
 .navbar {
   padding: 1.4rem 8rem;
   z-index: 10;
@@ -86,23 +74,14 @@ body {
   border: 2px solid #000 !important ;
 }
 
-video{
-  position: absolute;
-  top: 0;
-  z-index: -1;
-}
-
-.video-overlay{
-  height: 1080px;
-  width: 1920px;
-  background: rgba(0,0,0,0.4)
+.container-video {
+  padding: 0 !important;
 }
 
 .left-contact{
   width: 730px;
   background: #F3452E;
   position: absolute;
-  top: calc(100% - 140px);
   height: 140px;
   z-index: 5;
   clip-path: polygon(0 0, 100% 0, 700px 100%, 0 100%);
