@@ -5,7 +5,7 @@ body {
 
 .header {
   position: relative;
-  height: calc(169.5vh + 70px);
+  height: calc(1080px + 70px);
 }
 
 .navbar {
@@ -83,11 +83,11 @@ video{
   position: absolute;
   top: 0;
   z-index: -1;
-  clip-path: polygon(0 0, 100vw 0, 100vw 169.5vh, 0 169.5vh);
 }
 
-.video-offset{
-  height: 169.5vh;
+.video-overlay{
+  height: 1080px;
+  width: 1920px;
   background: rgba(0,0,0,0.4)
 }
 
