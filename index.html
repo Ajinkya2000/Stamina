@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="style.css">
     <title>Stamina &mdash; Website Template by Colorlib</title>
   </head>
-  <body>
+  <body onresize="overlaySize()">
     <div class="header">
       <nav class="navbar navbar-expand-md navbar-dark bg-transparent container-fluid">
           <a class="navbar-brand" href="#">STAMINA<span>.</span></a>
@@ -41,19 +41,10 @@
           </div>
       </nav>
       <div class="video-wrapper">
-        <video autoplay loop muted class="container-fluid container-video">
+        <div class="video-overlay"></div>
+        <video autoplay loop muted class="container-video">
           <source src="video.mp4" type="video/mp4">
         </video>
-        <div class="left-contact">
-          <div>
-              <p>Hours</p>
-              <p>Opening: 7:30am — Closing: 9:00pm</p>
-              <a href="#contact" class="container-fluid">CONTACT US ></a>
-          </div>
-          <div>
-            <a href="#contact">CONTACT US ></a>
-          </div>
-        </div>
       </div>
     </div>
 
@@ -69,6 +60,6 @@
         <script>
             new WOW().init();
         </script>
-        <script src="qwer.js"></script>
+        <script src="script.js"></script>
     </body>
 </html>

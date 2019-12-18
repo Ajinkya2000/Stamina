@@ -78,7 +78,39 @@ body {
   padding: 0 !important;
 }
 
-.left-contact{
+.video-wrapper {
+  position: relative;
+}
+
+video{
+  position: absolute;
+}
+
+.video-overlay{
+  position: absolute;
+  z-index: 1;
+  height: 1080px;
+  width: 1920px;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .left-contact{
   width: 730px;
   background: #F3452E;
   position: absolute;
@@ -131,5 +163,5 @@ body {
 
   .left-contact div:last-child a{
     display: none;
-  }
+  } */
 }
