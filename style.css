@@ -193,6 +193,7 @@ video{
   cursor: pointer;
 }
 
+
 .left-contact{
   width: 730px;
   background: #F3452E;
@@ -238,11 +239,11 @@ video{
 }
 
 @media (max-width: 768px){
-
+  
   .left-contact{
     height: 150px;
   }
-
+  
   .left-contact section a{
     display: inline-block;
     background: #F89E2E;
@@ -254,20 +255,20 @@ video{
     border-radius: 5px;
     text-align: center;
   }
-
+  
   .left-contact section:last-child a{
     display: none;
   }
-
+  
   .left-contact section:first-child a{
     display: inline-block;
     margin-top: 10px;
   }
-
+  
   .get-healthy p:last-child{
     width: 95% !important;
   }
-
+  
 }
 
 .get-healthy{
@@ -295,4 +296,18 @@ video{
   width: 50%;
   margin-left: auto;
   margin-right: auto;
+}
+
+@media (max-width: 590px){
+  .btn_get {
+    display: none;
+  }
+
+  .left-contact {
+    justify-content: space-between;
+  }
+
+  .left-contact section {
+    margin-left: 50px;
+  }
 }
