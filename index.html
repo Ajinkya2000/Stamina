@@ -1,21 +1,22 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
+
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link href="https://fonts.googleapis.com/css?family=Muli:300,400,500,700,900&display=swap" rel="stylesheet">
 
-    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="animate.css">
     <link rel="stylesheet" href="style.css">
     <title>Stamina &mdash; Website Template by Colorlib</title>
   </head>
-  <body onresize="overlaySize()">
+  <body onresize="overlaySize()" onload="overlaySize()">
+
     <div class="header">
-      <nav class="navbar navbar-expand-md navbar-dark bg-transparent container-fluid">
+
+      <nav class="navbar navbar-expand-md navbar-dark bg-transparent fixed-top">
           <a class="navbar-brand" href="#">STAMINA<span>.</span></a>
           <button class="navbar-toggler navbar-toggler-without-scroll" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <div class="ham-icons"></div>
@@ -40,12 +41,37 @@
             </ul>
           </div>
       </nav>
+
       <div class="video-wrapper">
         <div class="video-overlay"></div>
+        <div class="video-content">
+            <h2 class="animated slideInUp">
+              <span>we believe little things matter</span>
+              <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione, quis suscipit quam fuga dolorum placeat!</span>
+            </h2>
+            <a class="btn btn-lg btn_get btn-outline-light">GET STARTED</a>
+        </div>
         <video autoplay loop muted class="container-video">
           <source src="video.mp4" type="video/mp4">
         </video>
       </div>
+
+      <div class="left-contact">
+        <section>
+          <span>Hours</span>
+          <span>Opening: 7:30am &mdash; Closing: 9:00pm</span>
+          <a href="#contact">CONTACT US ></a>
+        </section>
+        <section>
+          <a href="#contact">CONTACT US ></a>
+        </section>
+      </div>
+    </div>
+
+    <div class="get-healthy">
+      <p>Stay Healthy</p>
+      <h2>Get A Perfect Body</h2>
+      <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
     </div>
 
       

@@ -1,6 +1,8 @@
 let nav = document.querySelector("nav");
+let body= document.querySelector('body');
 var vid = document.querySelector('video');
 var overlay = document.querySelector('.video-overlay');
+var parentVideo = document.querySelector('.video-wrapper');
 
 window.addEventListener("scroll", function(){
     if (window.pageYOffset !== 0){
@@ -51,6 +53,13 @@ window.addEventListener("scroll", function(){
 });
 
 function overlaySize(){
+    parentVideo.style.width = "100%";
     overlay.style.height = vid.offsetHeight + 'px';
     overlay.style.width = vid.offsetWidth + 'px';
+    parentVideo.style.height = vid.offsetHeight + 'px';
+    parentVideo.style.width = vid.offsetWidth + 'px';
+}
+
+function leftContactLoad(){
+    document.querySelector(".left-contact").style.display = 'block';
 }
