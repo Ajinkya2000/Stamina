@@ -278,6 +278,10 @@ nav .burger div {
   background-color: whitesmoke;
 }
 
+.bg-orangered {
+  background-color: orangered !important;
+}
+
 .bg-height {
   top: 9vh !important;
   height: 91vh !important;
