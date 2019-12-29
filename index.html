@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="scss/glider.min.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Muli:300,400,700,900&display=swap"
       rel="stylesheet"
@@ -13,66 +14,193 @@
     <title>Stamina &mdash; Website Template by Colorlib</title>
   </head>
   <body onresize="resizeNavHeight()">
-    <div class="header">
-      <nav>
-        <div class="logo">
-          <h3>
-            <a href="#" class="brand">Stamina<span>.</span></a>
-          </h3>
+    <div class="header-wrapper">
+      <div class="header">
+        <nav>
+          <div class="logo">
+            <h3>
+              <a href="#" class="brand">Stamina<span>.</span></a>
+            </h3>
+          </div>
+
+          <ul class="nav-links">
+            <li class="item-1">
+              <a href="#">Home</a>
+            </li>
+            <li class="item-2">
+              <a href="#classes">Classes</a>
+            </li>
+            <li class="item-3">
+              <a href="#trainer">Trainers</a>
+            </li>
+            <li class="item-4">
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+
+          <div class="burger">
+            <div class="line-1"></div>
+            <div class="line-2"></div>
+            <div class="line-3"></div>
+          </div>
+        </nav>
+
+        <div class="video-wrapper">
+          <video src="vidNimg/video.mp4" autoplay muted loop></video>
+          <div class="overlay"></div>
+          <div class="overlay-1">
+            <div class="video-text">
+              <h2>We Believe Little Things Matter</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Adipisci voluptate, optio praesentium. Ex, veniam, harum.
+              </p>
+              <a href="#contact">GET STARTED</a>
+            </div>
+          </div>
         </div>
 
-        <ul class="nav-links">
-          <li class="item-1">
-            <a href="#">Home</a>
-          </li>
-          <li class="item-2">
-            <a href="#classes">Classes</a>
-          </li>
-          <li class="item-3">
-            <a href="#trainer">Trainers</a>
-          </li>
-          <li class="item-4">
-            <a href="#contact">Contact</a>
-          </li>
-        </ul>
-
-        <div class="burger">
-          <div class="line-1"></div>
-          <div class="line-2"></div>
-          <div class="line-3"></div>
-        </div>
-      </nav>
-
-      <div class="video-wrapper">
-        <video src="vidNimg/video.mp4" autoplay muted loop></video>
-        <div class="overlay"></div>
-        <div class="overlay-1">
-          <div class="video-text">
-            <h2>We Believe Little Things Matter</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci
-              voluptate, optio praesentium. Ex, veniam, harum.
-            </p>
-            <a href="#contact">GET STARTED</a>
+        <div class="left-contact">
+          <div>
+            <section>
+              <h2>Hours</h2>
+              <p>Opening: 7:30am &mdash; Closing: 9:00pm</p>
+              <a href="#contact">CONTACT US ></a>
+            </section>
+            <section>
+              <a href="#contact">CONTACT US ></a>
+            </section>
           </div>
         </div>
       </div>
 
-      <div class="left-contact">
-        <div>
-          <section>
-            <h2>Hours</h2>
-            <p>Opening: 7:30am &mdash; Closing: 9:00pm</p>
-            <a href="#contact">CONTACT US ></a>
-          </section>
-          <section>
-            <a href="#contact">CONTACT US ></a>
-          </section>
-        </div>
+      <div class="get-healthy">
+        <p>Stay Healthy</p>
+        <h2>Get A Perfect Body</h2>
+        <p>
+          Far far away, behind the word mountains, far from the countries
+          Vokalia and Consonantia, there live the blind texts. Separated they
+          live in Bookmarksgrove right at the coast of the Semantics, a large
+          language ocean.
+        </p>
       </div>
 
+      <div class="glider-wrapper">
+        <div class="glider">
+          <div class="carousel-item-1 carousel-item">
+            <div class="item-wrapper">
+              <img src="vidNimg/Icon1.svg" alt="icon-1" />
+              <h2>Be Fit</h2>
+              <p>
+                Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia, there live the blind texts.
+              </p>
+            </div>
+          </div>
+
+          <div class="carousel-item-2 carousel-item">
+            <div class="item-wrapper">
+              <img src="vidNimg/Icon4.svg" alt="icon-2" />
+              <h2>Eat Veggie</h2>
+              <p>
+                Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia, there live the blind texts.
+              </p>
+            </div>
+          </div>
+
+          <div class="carousel-item-3 carousel-item">
+            <div class="item-wrapper">
+              <img src="vidNimg/Icon3.svg" alt="icon-3" />
+              <h2>Fruit Juices</h2>
+              <p>
+                Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia, there live the blind texts.
+              </p>
+            </div>
+          </div>
+
+          <div class="carousel-item-4 carousel-item">
+            <div class="item-wrapper">
+              <img src="vidNimg/Icon4.svg" alt="icon-4" />
+              <h2>Body Warmup</h2>
+              <p>
+                Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia, there live the blind texts.
+              </p>
+            </div>
+          </div>
+
+          <div class="carousel-item-5 carousel-item">
+            <div class="item-wrapper">
+              <img src="vidNimg/Icon5.svg" alt="icon-5" />
+              <h2>Join Club</h2>
+              <p>
+                Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia, there live the blind texts.
+              </p>
+            </div>
+          </div>
+
+          <div class="carousel-item-6 carousel-item">
+            <div class="item-wrapper">
+              <img src="vidNimg/Icon6.svg" alt="icon-6" />
+              <h2>Be Fit</h2>
+              <p>
+                Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia, there live the blind texts.
+              </p>
+            </div>
+          </div>
+
+          <div id="resp-dots" class="glider-dots"></div>
+        </div>
+      </div>
     </div>
 
+    <script src="js/glider.min.js"></script>
+    <script>
+      new Glider(document.querySelector(".glider"), {
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        dots: "#resp-dots",
+        draggable: true,
+
+        responsive: [
+        {
+            breakpoint: 300,
+            settings: {
+              // Set to `auto` and provide item width to adjust to viewport
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              itemWidth: 150,
+              duration: 0.25
+            }
+          },
+
+          {
+            breakpoint: 890,
+            settings: {
+              // Set to `auto` and provide item width to adjust to viewport
+              slidesToShow: 2,
+              slidesToScroll: 1,
+              itemWidth: 150,
+              duration: 0.25
+            }
+          },
+          {
+            // screens greater than >= 1024px
+            breakpoint: 1060,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 1,
+              itemWidth: 150,
+              duration: 0.25
+            }
+          }
+        ]
+      });
+    </script>
     <script src="js/script.js"></script>
   </body>
 </html>
