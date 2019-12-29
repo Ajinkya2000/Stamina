@@ -28,7 +28,7 @@ const navSlide = () => {
 
             burgerLines.forEach((line) => {
                 line.style.backgroundColor = '';
-                line.classList.toggle('bg-black');
+                line.classList.toggle('bg-orangered');
             });
 
             navItem.forEach((link) => {
