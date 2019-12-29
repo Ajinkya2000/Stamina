@@ -1,88 +1,78 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link href="https://fonts.googleapis.com/css?family=Muli:300,400,500,700,900&display=swap" rel="stylesheet">
-
-    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Muli:300,400,700,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="scss/animation.css" />
+    <link rel="stylesheet" href="scss/main.css" />
     <title>Stamina &mdash; Website Template by Colorlib</title>
   </head>
-  <body onresize="overlaySize()" onload="overlaySize()">
-
+  <body onresize="resizeNavHeight()">
     <div class="header">
-      
-      <nav class="navbar bg-transparent">
-        <a class="brand" href="#">STAMINA<span>.</span></a>
-        <ul>
-          <li class="nav-link item-1">Home</li>
-          <li class="nav-link item-2">Classes</li>
-          <li class="nav-link item-3">Trainers</li>
-          <li class="nav-link item-4">Contact</li>
-        </ul>
-        <div class="ham d-none">
-          <div class="ham-overlay"></div>
-          <!-- <div class="ham--nav-links" style="display: none;">
+      <nav>
+        <div class="logo">
+          <h3>
+            <a href="#" class="brand">Stamina<span>.</span></a>
+          </h3>
+        </div>
+
+        <ul class="nav-links">
+          <li class="item-1">
             <a href="#">Home</a>
+          </li>
+          <li class="item-2">
             <a href="#classes">Classes</a>
-            <a href="#trainers">Trainers</a>
+          </li>
+          <li class="item-3">
+            <a href="#trainer">Trainers</a>
+          </li>
+          <li class="item-4">
             <a href="#contact">Contact</a>
-          </div> -->
-          <section></section>
-          <section></section>
-          <section></section>
+          </li>
+        </ul>
+
+        <div class="burger">
+          <div class="line-1"></div>
+          <div class="line-2"></div>
+          <div class="line-3"></div>
         </div>
       </nav>
 
       <div class="video-wrapper">
-        <div class="video-overlay"></div>
-        <div class="video-content">
-            <!-- <div class="ham--nav-links ham--nav-links-display">
-              <a href="#">Home</a>
-              <a href="#classes">Classes</a>
-              <a href="#trainers">Trainers</a>
-              <a href="#contact">Contact</a>
-            </div> -->
-            <h2>
-              <span>we believe little things matter</span>
-              <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione, quis suscipit quam fuga dolorum placeat!</span>
-            </h2>
-            <a class="btn btn-lg btn_get btn-outline-light">GET STARTED</a>
+        <video src="vidNimg/video.mp4" autoplay muted loop></video>
+        <div class="overlay"></div>
+        <div class="overlay-1">
+          <div class="video-text">
+            <h2>We Believe Little Things Matter</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci
+              voluptate, optio praesentium. Ex, veniam, harum.
+            </p>
+            <a href="#contact">GET STARTED</a>
+          </div>
         </div>
-        <video autoplay loop muted class="container-video">
-          <source src="video.mp4" type="video/mp4">
-        </video>
       </div>
 
       <div class="left-contact">
-        <section>
-          <span>Hours</span>
-          <span>Opening: 7:30am &mdash; Closing: 9:00pm</span>
-          <a href="#contact">CONTACT US ></a>
-        </section>
-        <section>
-          <a href="#contact">CONTACT US ></a>
-        </section>
+        <div>
+          <section>
+            <h2>Hours</h2>
+            <p>Opening: 7:30am &mdash; Closing: 9:00pm</p>
+            <a href="#contact">CONTACT US ></a>
+          </section>
+          <section>
+            <a href="#contact">CONTACT US ></a>
+          </section>
+        </div>
       </div>
+
     </div>
 
-    <div class="get-healthy">
-      <p>Stay Healthy</p>
-      <h2>Get A Perfect Body</h2>
-      <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-    </div>
-
-      
-
-
-        <!-- Optional JavaScript -->
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> -->
-        <script src="script.js"></script>
-    </body>
+    <script src="js/script.js"></script>
+  </body>
 </html>
