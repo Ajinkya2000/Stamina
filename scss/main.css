@@ -340,6 +340,7 @@ nav .burger div {
   font-weight: 900;
   display: none;
   text-align: center;
+  width: 80%;
 }
 
 .left-contact div section:nth-child(2) {
@@ -352,6 +353,7 @@ nav .burger div {
   padding: 9% 15%;
   border-radius: 5px;
   font-weight: 900;
+  margin-bottom: 10px;
 }
 
 @media screen and (max-width: 1000px) {
@@ -364,6 +366,16 @@ nav .burger div {
   }
   .left-contact div section:nth-child(2) a {
     display: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .left-contact {
+    width: 450px;
+    height: 180px;
+  }
+  .left-contact div section:nth-child(1) a {
+    padding: 2% 7%;
   }
 }
 /*# sourceMappingURL=main.css.map */

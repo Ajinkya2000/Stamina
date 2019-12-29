@@ -327,6 +327,7 @@ nav{
                 font-weight: 900;
                 display: none;
                 text-align: center;
+                width: 80%;
             }
         }
 
@@ -338,6 +339,7 @@ nav{
                 padding: 9% 15%;
                 border-radius: 5px;
                 font-weight: 900;
+                margin-bottom: 10px;
             }
         }
     }
@@ -353,6 +355,16 @@ nav{
 
         div section:nth-child(2) a{
             display: none;
+        }
+    }
+}
+
+@media screen and (max-width: 500px){
+    .left-contact{
+        width: 450px;
+        height: 180px;
+        div section:nth-child(1) a{
+            padding: 2% 7%;
         }
     }
 }
